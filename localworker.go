@@ -15,10 +15,10 @@ import (
 	"github.com/filecoin-project/specs-actors/actors/abi"
 	storage2 "github.com/filecoin-project/specs-storage/storage"
 
-	"github.com/filecoin-project/sector-storage/ffiwrapper"
-	"github.com/filecoin-project/sector-storage/sealtasks"
-	"github.com/filecoin-project/sector-storage/stores"
-	"github.com/filecoin-project/sector-storage/storiface"
+	"github.com/kilb/sector-storage/ffiwrapper"
+	"github.com/kilb/sector-storage/sealtasks"
+	"github.com/kilb/sector-storage/stores"
+	"github.com/kilb/sector-storage/storiface"
 )
 
 var pathTypes = []stores.SectorFileType{stores.FTUnsealed, stores.FTSealed, stores.FTCache}

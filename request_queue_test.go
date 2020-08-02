@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"testing"
 
-	"github.com/filecoin-project/sector-storage/sealtasks"
+	"github.com/kilb/sector-storage/sealtasks"
 )
 
 func TestRequestQueue(t *testing.T) {

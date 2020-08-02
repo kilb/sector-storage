@@ -1,4 +1,4 @@
-module github.com/filecoin-project/sector-storage
+module github.com/kilb/sector-storage
 
 go 1.13
 

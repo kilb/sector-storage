@@ -12,7 +12,7 @@ import (
 	rlepluslazy "github.com/filecoin-project/go-bitfield/rle"
 	"github.com/filecoin-project/specs-actors/actors/abi"
 
-	"github.com/filecoin-project/sector-storage/storiface"
+	"github.com/kilb/sector-storage/storiface"
 )
 
 const veryLargeRle = 1 << 20

@@ -19,10 +19,10 @@ import (
 	"github.com/filecoin-project/specs-actors/actors/abi"
 	"github.com/filecoin-project/specs-storage/storage"
 
-	"github.com/filecoin-project/sector-storage/fr32"
-	"github.com/filecoin-project/sector-storage/stores"
-	"github.com/filecoin-project/sector-storage/storiface"
-	"github.com/filecoin-project/sector-storage/zerocomm"
+	"github.com/kilb/sector-storage/fr32"
+	"github.com/kilb/sector-storage/stores"
+	"github.com/kilb/sector-storage/storiface"
+	"github.com/kilb/sector-storage/zerocomm"
 )
 
 var _ Storage = &Sealer{}

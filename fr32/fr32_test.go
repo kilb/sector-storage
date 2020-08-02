@@ -12,8 +12,8 @@ import (
 	"github.com/filecoin-project/specs-actors/actors/abi"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/sector-storage/ffiwrapper"
-	"github.com/filecoin-project/sector-storage/fr32"
+	"github.com/kilb/sector-storage/ffiwrapper"
+	"github.com/kilb/sector-storage/fr32"
 )
 
 func padFFI(buf []byte) []byte {

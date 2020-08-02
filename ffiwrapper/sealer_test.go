@@ -24,8 +24,8 @@ import (
 	"github.com/filecoin-project/specs-actors/actors/abi"
 	"github.com/filecoin-project/specs-storage/storage"
 
-	"github.com/filecoin-project/sector-storage/ffiwrapper/basicfs"
-	"github.com/filecoin-project/sector-storage/stores"
+	"github.com/kilb/sector-storage/ffiwrapper/basicfs"
+	"github.com/kilb/sector-storage/stores"
 )
 
 func init() {

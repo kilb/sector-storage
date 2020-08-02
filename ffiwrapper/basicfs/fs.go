@@ -8,8 +8,8 @@ import (
 
 	"github.com/filecoin-project/specs-actors/actors/abi"
 
-	"github.com/filecoin-project/sector-storage/stores"
-	"github.com/filecoin-project/sector-storage/storiface"
+	"github.com/kilb/sector-storage/stores"
+	"github.com/kilb/sector-storage/storiface"
 )
 
 type sectorFile struct {

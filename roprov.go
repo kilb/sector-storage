@@ -7,7 +7,7 @@ import (
 
 	"github.com/filecoin-project/specs-actors/actors/abi"
 
-	"github.com/filecoin-project/sector-storage/stores"
+	"github.com/kilb/sector-storage/stores"
 )
 
 type readonlyProvider struct {

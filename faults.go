@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/sector-storage/stores"
+	"github.com/kilb/sector-storage/stores"
 	"github.com/filecoin-project/specs-actors/actors/abi"
 )
 
